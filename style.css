@@ -9,13 +9,14 @@ html {
 }
 
 img {
-   display: block;
+   display: block
 }
 
 body {
    background-color: slategray;
    color: #000;
    min-height: 100vh;
+   
 }
 
 .header-nav {
@@ -26,8 +27,6 @@ body {
    color: #000;
    box-shadow: 0 0 10px;
 }
-
-img
 
 .header-nav h2 {
    display: flex;
@@ -79,7 +78,7 @@ main {
 .main2 {
    display: flex;
    flex-direction: column;
-   font-size: 30px;
+   font-size: 25px;
    justify-content: space-around;
 }
 
@@ -87,42 +86,156 @@ main {
    display: flex;
    justify-content: center;
    align-items: center;
+   font-size: 40px;
 }
 
-section:nth-of-type(odd){
+.main2 h1 {
+   text-align: center;
+   font-size: 40px;
+}
+
+.main2 section:nth-of-type(odd){
    display: flex;
    flex-wrap:wrap;
    padding: 25px;
    
 }
 
-section:nth-of-type(even){
+.main2 section:nth-of-type(even){
    display: flex;
    flex-direction: row-reverse;
    flex-wrap: wrap;
    padding: 25px;
 }
 
-section {
+.section1 {
    border-top: 1px solid #333;
 }
 
-section p {
+.section1 p {
    text-align: center;
 }
 
-section img {
-   width: 25%;
-   height: auto;
-}
-
-.hero {
+.hero1 {
    width: 15%
 }
 
-.hero img {
+.hero1 img {
    width: 100%;
    height: auto;
    min-width: 50px;
    padding: 20px;
+}
+
+.main3 {
+   width: 90%;
+   margin: 50px auto;
+}
+
+.main3 h2 {
+   border-bottom: 1px solid #333;
+}
+
+.hero2 {
+   width: 15%;
+}
+
+.hero2 img {
+   width: 100%;
+   height: auto;
+   min-width: 50px;
+   padding: 20px;
+}
+
+.section2 {
+   background-color: rgb(121, 145, 165);
+   border: 1px solid #333;
+   padding: 1rem;
+   margin: 2rem;
+}
+
+.container {
+   width: 80%;
+   margin: 50px auto;
+}
+
+.contact-box {
+   display: flex;
+   background-color: rgb(106, 116, 134);
+}
+
+.contact-left {
+   flex-basis: 60%;
+   padding: 40px 60px;
+}
+.contact-right {
+   flex-basis: 40%;
+   padding: 40px;
+   background: rgb(209, 204, 204);
+}
+
+.main4 h1 {
+   margin-bottom: 10px;
+}
+
+.container p{
+   margin-bottom: 40px;
+}
+
+.input-row {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.input-row .input-group {
+   flex-basis: 45%;
+}
+
+input {
+   width: 100%;
+   border: none;
+   border-bottom: 1px solid #ccc;
+   outline: none;
+   padding-bottom: 5px;
+}
+
+textarea {
+   width: 100%;
+   border: 1px solid #333;
+   outline: none;
+   padding: 10px;
+}
+
+label {
+   margin-bottom: 6px;
+   display: block;
+   color: #292828;
+}
+
+button {
+   width: 100px;
+   border: none;
+   outline: none;
+   height: 35px;
+   border-radius: 30px;
+   margin-top: 20px;
+}
+
+.contact-left h3 {
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+.contact-right h3 {
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+tr td:first-child{
+   padding-right: 20px;
+}
+
+tr td{
+   padding-top: 20px;
 }
